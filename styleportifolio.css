@@ -1,0 +1,139 @@
+
+html, body {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+    background-color: #FAFAFA; 
+    color: #4A4A4A;            
+    font-family: sans-serif; 
+}
+
+
+.barra-cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 20px 50px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05); 
+}
+
+.links-navegacao {
+    display: flex;
+    gap: 30px; 
+}
+
+.links-navegacao a {
+    color: #7A7A7A; 
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.links-navegacao a:hover {
+    color: #F3A6B6; 
+}
+
+
+.cabecalho {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 10px 10%; 
+    gap: 40px;
+   
+}
+
+.dados {
+    max-width: 500px;
+    min-width: 300px;
+    max-height: 300px;
+}
+
+#conteudo {
+    flex: 1;
+}
+
+#conteudo h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+
+.btn-contato {
+    background-color: #F3A6B6; 
+    color: white; 
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.btn-contato:hover {
+    background-color: #E595A5; 
+    transform: scale(1.05);    
+}
+
+
+#foto-perfil {
+    display: flex;
+    justify-content: center;
+}
+
+#foto {
+    width: 350px;       
+    height: 350px;
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+
+.logos h6{
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.logos h2{
+
+    margin-left: 100px;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333333; 
+
+}
+
+.logos img{
+    
+    width: auto;
+    max-height: 100px;
+   
+
+}
+
+.logos-container {
+  display: flex;        
+  flex-wrap: wrap;       
+  gap: 20px;             
+  justify-content: center;
+}
+
+
+.logo-par {
+  display: flex;        
+  flex-direction: column; 
+  align-items: center;   
+  text-align: center;     
+}
+
+.work-with {
+    
+    padding: 60px 10%;
+    text-align: center;
+    
+}

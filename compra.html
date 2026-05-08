@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Tela de Saldo e Créditos</title>
+</head>
+<body>
+    <div class="barra-cabecalho">
+        <h2>Saldo e Créditos</h2>
+    </div>
+    
+    <table class="layout-formulario">
+        <tr class="caixa-info-usuario">
+            <td><label>Usuário:</label></td>
+            <td><label id="nome_usuario">Giseliana R. Silva</label></td>
+            <td><label>Perfil:</label></td>
+            <td class="italico"><label id="tipo_perfil">Aluno</label></td>
+        </tr>
+    
+        <tr class="caixa-credito-verde">
+            <td><label>Créditos disponíveis:</label></td>
+            <td><label id="valor_saldo">R$ 45,00</label></td>
+        </tr>
+    
+        <tr class="grupo-formulario">
+            <td class="titulo-secao"><label>Comprar Créditos:</label></td>
+        </tr>
+    
+        <tr class="grupo-formulario linha-compra">
+            <td class="rotulo-qtd"><label for="campo_quantidade">Quantidade (R$):</label></td>
+            <td class="entrada-qtd">
+                <input type="text" id="campo_quantidade" name="quantidade" placeholder="Ex: 20,00">
+            </td>
+            <td>
+                <button type="submit" id="botao_comprar" class="botao-vermelho botao-vermelho-pequeno">Comprar</button>
+            </td>
+        </tr>
+    
+        <tr class="grupo-formulario nota-rodape">
+            <td>
+                <i>Débito automático conforme refeição e perfil do usuário</i>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
